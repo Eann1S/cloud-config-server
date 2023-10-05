@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Eann1S/config-repo
+          uri: ${CONFIG_LOCATION}
           timeout: 3
           search-paths: '{application}'
           default-label: main
